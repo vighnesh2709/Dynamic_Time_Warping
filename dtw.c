@@ -168,7 +168,7 @@ int main(){
             double final_ans = readFile(path_1,path_2);
             // printf("%lf\t",final_ans);
             int l = strlen(entry_dev->d_name);
-            char ref_label = entry_dev->d_name[l-10];
+            char ref_label = entry_dev->d_name[l-5];
             double num = (double)ref_label - '0';
             // printf("%lf\n", num);
 
